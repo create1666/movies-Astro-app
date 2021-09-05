@@ -16,7 +16,7 @@ export const ListItem = ({ index }) => {
   return (
     <div
       className="listItem "
-      style={{ left: isHovered && index * 225 - 50 }}
+      style={{ left: isHovered && index * 225 - 50 + index * 2.5 }}
       onMouseOver={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >

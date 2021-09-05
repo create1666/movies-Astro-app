@@ -2,27 +2,23 @@
 
 .listItem {
   width: 225px;
-  height: 100%;
+  height: 120px;
   margin-right: 5px;
   overflow: hidden;
   color: white;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+  // position: relative;
 
   img {
     width: 100%;
-    height: 100%;
-    object-fit: cover center;
+    height: 140px;
+    object-fit: cover;
   }
 
   &:hover {
-    // width: 325px;
-    // height: 300px;
-    // position: absolute;
-    transform: scale(1.5, 1.5);
-    top: -150px;
-  }
-  img {
-    height: 140px;
+    height: 200px;
+    transform: scale(1.3, 1.3);
+    z-index: 9999;
   }
 }
